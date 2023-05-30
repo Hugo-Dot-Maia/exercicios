@@ -1,16 +1,25 @@
-# exercicios
+# Semester Exercises Flutter App
 
-Execícios de desenvolvimento mobile
+This Flutter app allows you to organize and display all your semester exercises in one place. It provides a hub with independent "apps" for each exercise, allowing easy navigation and management of your coursework.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Registration screen to create a new account with name, date of birth, phone, email, and password fields.
+- Login screen to authenticate users with email and password.
+- SharedPreferences integration to store user registration data locally.
+- Password visibility toggle on the registration screen.
+- Gender selection with CheckBox.
+- Email and phone notifications toggle with Switch.
+- Enroll button on the registration screen.
+- Menu bottom navigation widget for easy navigation within the app.
+- Page with a list of items, each triggering an AlertDialog with item details when clicked.
+- Login screen validation with AlertDialog for incorrect username/password.
+- SQLite database integration for storing and retrieving user data.
+- Proper error handling and exception management.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Make sure you have Flutter installed. For installation instructions, refer to the official [Flutter documentation](https://flutter.dev/docs/get-started/install).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Clone this repository to your local machine:
+
